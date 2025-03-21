@@ -1,1 +1,40 @@
+import java.util.Scanner;
+import java.io.*;
+
+public class Book(String title, String author, String ISBN, int yearPublished){
+    Scanner heyBook = new Scanner(System.in);
+    public String getTitle(String title){
+        return title;
+    }
+    void setTitle(){
+        System.out.println("Book Title: ");
+       String title=heyBook.nextLine();
+    };
+    void setAuthor(){
+        System.out.println("Author: ");
+        String author=heyBook.nextLine();
+    };
+    public String getAuthor(String author){
+        return author;
+    };
+    void setISBN(){
+        System.out.println("ISBN: ");
+        String IBSN= heyBook.nextLine();
+    }
+    public String getISBN(String ISBN){
+        return ISBN;
+    }
+    void setYearPublished(){
+        System.out.println("In what year was the book published?: ");
+        int yearPublished=heyBook.nextInt();
+    }
+    public int getYearPublished(int yearPublished){
+        return yearPublished;
+    };
+    public boolean equals(Book book1, Book book2){
+        if(((book1.ISBN.equals(book2.ISBN) && (book1.author.equals(book2.author))){
+
+        }
+    }
+}
 
