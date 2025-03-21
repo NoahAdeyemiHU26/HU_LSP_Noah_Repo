@@ -1,0 +1,9 @@
+import java.util.*;
+import java.io.*;
+public class VotingMachine {
+    System.out.print("How many candidates should there be?: \n");
+    int n=0;
+    VotingMachine vm = new VotingMachine();
+    ArrayList<String> voteNow=  new ArrayList<>();
+    public String addCandidate();
+}
