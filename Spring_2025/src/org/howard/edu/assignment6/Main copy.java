@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.*;
+//Code is from ChatGPT
+//Link: "https://chatgpt.com/c/615a3006-f9ec-49ba-a665-194e253d872e"
 
 public class Main {
     public static void main(String[] args) {
